@@ -1,0 +1,5 @@
+rowdegree=apply(EZ,1,sum)
+coldegree=apply(EZ,2,sum)
+deg=c(rowdegree,coldegree)
+target=min(deg)
+remove=which(deg==target)
